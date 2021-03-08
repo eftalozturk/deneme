@@ -1,0 +1,32 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.page{
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    column-gap: 30px;
+    width: 100%;
+}
+.content{
+    width: 36.4%;
+}
+.title{
+    width: 75%;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.33;
+    color: #18191f;
+}
+.title-1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+    color: #18191f;
+}
+.article{
+    font-size: 16px;
+    line-height: 1.63;
+    color: #18191f;
+}
