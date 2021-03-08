@@ -2,31 +2,36 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 .page{
+    width: 85%;
     margin: 0px auto;
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    column-gap: 30px;
-    width: 100%;
+    flex-direction: column;
 }
 .content{
-    width: 36.4%;
+    margin-bottom: 64px;
+}
+.content-1{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
 }
 .title{
-    width: 75%;
     font-size: 48px;
     font-weight: 800;
     line-height: 1.33;
     color: #18191f;
+    margin-bottom: 48px;
 }
 .title-1{
     font-size: 24px;
     font-weight: 600;
     line-height: 1.33;
     color: #18191f;
+    margin-block-start: 16px;
 }
 .article{
     font-size: 16px;
     line-height: 1.63;
     color: #18191f;
+    margin-block-start: 8px;
 }
