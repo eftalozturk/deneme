@@ -1,8 +1,7 @@
 body{
     font-family: 'Manrope', sans-serif;
-}
-.page{
-    margin-left: 150px;
+    margin: 0px auto;
+    width: 82.5%;
 }
 .title{
     font-size: 48px;
