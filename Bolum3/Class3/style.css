@@ -2,7 +2,7 @@ body {
 
     font-family: 'Manrope', sans-serif;
     margin: 0px auto;
-    width: 81%;
+    width: 1110px;
 }
 .title{
     font-size: 48px;
@@ -15,6 +15,9 @@ body {
     line-height: 1.43;
     color: #18191f;
     font-weight: 800;
+}
+.title-1-1{
+    font-weight: 400;
 }
 .title-2{
     font-size: 14px;
@@ -51,10 +54,14 @@ body {
     color: #ffffff;
     line-height: 1.43;
     font-size: 14px;
+    border-color: #8c30f5;
 }
 .line{
     width: 100%;
     background-color: #f4f5f7;
-    height: 1px;
     margin-top: 34px;
+    border-style: ridge;
+}
+.img{
+    border-radius: 8px;
 }
