@@ -25,3 +25,24 @@ body{
     font-size: 16px;
     color: #18191f;
 }
+@media screen and (max-width:767px){
+    body{
+        width: 100%;     
+    }
+    .page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-1{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+    }
+}
