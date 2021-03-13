@@ -65,3 +65,21 @@ body {
 .img{
     border-radius: 8px;
 }
+@media screen and (max-width:767px){
+    body{
+        width: 100%;
+    }
+    .page{
+        margin: 0px;
+        align-items: center;
+    }
+    .content-1{
+        width: 90%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+}
