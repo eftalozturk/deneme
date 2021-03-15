@@ -1,7 +1,9 @@
 body{
     font-family: 'Manrope', sans-serif;
+}
+.page{
+    width: 1110px;
     margin: 0px auto;
-    width: 83%;
 }
 .title{
     font-size: 48px;
@@ -26,23 +28,11 @@ body{
     color: #18191f;
 }
 @media screen and (max-width:767px){
-    body{
-        width: 100%;     
-    }
-    .page{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .content-1{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-    .content{
-        width: 100%;
-    }
-    .title{
-        text-align: center;
-    }
+   .page{
+       width: 100%;
+       margin: 0px auto;
+   }
+   .title{
+        font-size: 40px;
+   }
 }
