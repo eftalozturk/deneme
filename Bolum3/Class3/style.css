@@ -1,8 +1,6 @@
 body {
 
     font-family: 'Manrope', sans-serif;
-    margin: 0px auto;
-    width: 1110px;
 }
 .title{
     font-size: 48px;
@@ -29,6 +27,8 @@ body {
 .page{
     display: flex;
     flex-direction: column;
+    width: 1110px;
+    margin: 0px auto;
 }
 .content{
     display: flex;
@@ -66,15 +66,11 @@ body {
     border-radius: 8px;
 }
 @media screen and (max-width:767px){
-    body{
+    .page{
+        margin: 0px auto;
         width: 100%;
     }
-    .page{
-        margin: 0px;
-        align-items: center;
-    }
     .content-1{
-        width: 90%;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
