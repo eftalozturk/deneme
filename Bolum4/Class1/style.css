@@ -1,0 +1,46 @@
+body {
+    background-color: #0b0d17;
+    font-family: 'Manrope', sans-serif;   
+}
+.page{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.page-1{
+    display: flex;
+    justify-content: space-around;
+}
+.article{
+    color: #eeeff4;
+    font-size: 14px;
+}
+.title{
+    color: #f4f5f7;
+    font-size: 18px;
+    font-weight: 500;
+}
+.line{
+  opacity: 0.1;
+  background-color: #ffffff;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    margin-bottom: 24px;
+}
+.article-1{
+    color: #d9dbe1;
+}
+.icon{
+    margin-right: 24px;
+}
+.content-1{
+    display: flex;
+    align-items: center;
+}
+.page-2{
+    height: 500px;
+}
