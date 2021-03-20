@@ -1,5 +1,4 @@
 body {
-    background-color: #0b0d17;
     font-family: 'Manrope', sans-serif;   
 }
 .page{
@@ -42,5 +41,6 @@ body {
     align-items: center;
 }
 .page-2{
-    height: 500px;
+    background-color: #0b0d17;
+    height: 300px;
 }
