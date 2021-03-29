@@ -18,9 +18,15 @@ body {
     display: flex;
     flex-direction: column;
     width: 25%;
+    margin-right: 125px;
 }
 .content-2{
-    width: 11%;
+    width: 100%;
+}
+.content-3{
+    width: 45%;
+    display: flex;
+    column-gap: 30px;
 }
 .title{
     font-size: 20px;
