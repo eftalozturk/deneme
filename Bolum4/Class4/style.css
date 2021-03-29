@@ -70,9 +70,16 @@ body {
     width: 255px;
     height: 40px;
     border-radius: 8px;
-    background-color: #313131;
+    background-color: #504f4f;
     border: none;
+    background-image: url(Vector.svg);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
 }
 ::placeholder{
 color:#d9dbe1;
+position: absolute;
+top:15px;
+left: 15px;
 }
